@@ -1,0 +1,149 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden;
+  }
+  
+  .imgd {
+    /* The image used */
+    background-image: url("https://startbootstrap.github.io/startbootstrap-stylish-portfolio/img/bg-masthead.jpg");
+  
+    /* Full height */
+    height: 100vh; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+   background-size: cover;
+  }
+  .imgd{
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .imgd h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .imgd h3{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .txt1{
+      text-align: center;
+      padding: 100px 30px;
+  }
+  .txt1 h1{
+      font-size: 35px;
+      font-weight: 600;
+      line-height: 50px;
+  }
+  .txt1 p{
+    font-size: 18px;
+  }
+  .serd{
+      background-color: #1d809f;
+      color: white;
+  }
+  .serd i{
+      font-size: 50px;
+  }
+  .serd .content{
+      padding: 40px 5px;
+  }
+  .serd .content .col-md-3{
+    padding: 20px 0px;
+  }
+  .serd .content h3{
+      font-size: 21px;
+      font-weight: 600;
+  }
+  .serd .content p{
+    font-size: 15px;
+    
+  }
+
+  .imgd2 {
+    /* The image used */
+    background-image: url("https://startbootstrap.github.io/startbootstrap-stylish-portfolio/img/bg-callout.jpg");
+  
+    /* Full height */
+    height: 100vh; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+   background-size: cover;
+  }
+  .imgd2{
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .imgd2 h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .imgd2 h3{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .imgd2x img{
+      max-width: 100%;
+      
+      background-repeat: no-repeat;
+     background-size: cover;
+  }
+  .imgd2x img{
+      padding-top: 5vh;
+  }
+
+  .imgcon{
+    position: relative;
+    color: white;
+  }
+  .imgcon p {
+      font-size: 15px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .imgcon h1 {
+    font-size: 35px;
+    font-weight: 600;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .imgcon{
+    transition: 0.3s all ease-in-out; 
+  }
+  .imgcon:hover{
+    transform: scale(0.9);
+  }
+
+  .text2{
+      background: #1d809f;
+      color: white;
+  }
+
+  .aboutd{
+    font-size: 50px;
+    padding: 80px 30px;
+  }
+  .aboutd i{
+      color :#1d809f;
+      padding-left: 20px;
+      padding-right: 50px;
+  }
+  
